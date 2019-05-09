@@ -12,5 +12,5 @@ public class IssueDto {
     private String details;
     private Date date;
     private IssueStatus issueStatus;
-    private UserDto assignee;
+    private  UserDto  assignee;
 }
