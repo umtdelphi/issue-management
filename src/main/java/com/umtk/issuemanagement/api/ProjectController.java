@@ -16,7 +16,7 @@ public class ProjectController {
         this.projectServiceImlp = projectServiceImlp;
     }
 
-    @GetMapping("/{id]")
+    @GetMapping("/{id}")
     public ResponseEntity<ProjectDto> getById(@PathVariable("id") Long id){
         ProjectDto projectDto =  projectServiceImlp.getById(id);
         return  ResponseEntity.ok(projectDto);
