@@ -2,8 +2,10 @@ package com.umtk.issuemanagement.service.impl;
 
 import com.umtk.issuemanagement.Entity.Project;
 
+import com.umtk.issuemanagement.dto.ProjectDto;
 import com.umtk.issuemanagement.repo.ProjectRepository;
 import com.umtk.issuemanagement.service.ProjectService;
+import org.modelmapper.ModelMapper;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
@@ -13,9 +15,12 @@ import java.util.List;
 public class ProjectServiceImpl implements ProjectService {
 
     private final ProjectRepository projectRepository;
+    private final ModelMapper modelMapper;
 
-    public ProjectServiceImpl(ProjectRepository projectRepository){
+    public ProjectServiceImpl(ProjectRepository projectRepository, ModelMapper modelMapper){
         this.projectRepository =  projectRepository;
+
+        this.modelMapper = modelMapper;
     }
 
 
@@ -29,9 +34,9 @@ public class ProjectServiceImpl implements ProjectService {
     }
 
     @Override
-    public Project getById(Long id) {
-
-        return projectRepository.getOne(id);
+    public ProjectDto getById(Long id) {
+        Project p = projectRepository.getOne(id);
+        return modelMapper.map(p,ProjectDto.class);
     }
 
     @Override

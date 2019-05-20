@@ -13,5 +13,4 @@ public class IssueDto {
     private Date date;
     private IssueStatus issueStatus;
     private  UserDto  assignee;
-
 }

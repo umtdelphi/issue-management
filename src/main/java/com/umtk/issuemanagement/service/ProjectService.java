@@ -1,6 +1,7 @@
 package com.umtk.issuemanagement.service;
 
 import com.umtk.issuemanagement.Entity.Project;
+import com.umtk.issuemanagement.dto.ProjectDto;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
@@ -10,7 +11,7 @@ public interface ProjectService {
 
     Project save(Project project);
 
-    Project getById(Long id);
+    ProjectDto getById(Long id);
 
     List<Project> getByProjectCode(String projectCode);
 

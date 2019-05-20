@@ -22,6 +22,5 @@ public class TPage<T> {
         this.totalElements  = page.getTotalElements();
         this.content    = list;
 
-
     }
 }
