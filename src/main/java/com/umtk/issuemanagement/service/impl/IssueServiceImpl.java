@@ -8,9 +8,10 @@ import com.umtk.issuemanagement.util.TPage;
 import org.modelmapper.ModelMapper;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
-
+@Service
 public class IssueServiceImpl implements IssueService {
 
     private final IssueRepository issueRepository;
@@ -34,7 +35,8 @@ public class IssueServiceImpl implements IssueService {
 
     @Override
     public IssueDto getById(Long id) {
-        return null;
+        Issue p = issueRepository.getOne(id);
+        return modelMapper.map(p,IssueDto.class);
     }
 
     @Override
@@ -47,29 +49,29 @@ public class IssueServiceImpl implements IssueService {
     }
 
     @Override
-    public Boolean delete(IssueDto issue) {
-        return null;
+    public Boolean delete(Long id) {
+        issueRepository.deleteById(id);
+        return true;
     }
 
-
-/*    @Override
-    public Issue save(Issue issue) {
-        return issueRepository.save(issue);
-    }
 
     @Override
-    public Issue getById(Long id) {
-        return issueRepository.getOne(id);
+    public IssueDto update(Long id, IssueDto issuedto) {
+
+        Issue issueDb = issueRepository.getOne(id);
+
+        if (issueDb == null)
+            throw new IllegalArgumentException("Project doesnt exist ID: "+id);
+        issueDb.setDate(issuedto.getDate());
+        issueDb.setDescription(issuedto.getDescription());
+        issueDb.setDetails(issuedto.getDetails());
+        issueDb.setIssueStatus(issuedto.getIssueStatus());
+        issueRepository.save(issueDb);
+        IssueDto p =  modelMapper.map(issueDb, IssueDto.class);
+
+        return p;
+
     }
 
-    @Override
-    public Page<Issue> getAllPageable(Pageable pageable) {
-        return issueRepository.findAll(pageable);
-    }
 
-    @Override
-    public Boolean delete(Long issueId) {
-        issueRepository.deleteById(issueId);
-        return Boolean.TRUE;
-    }*/
 }

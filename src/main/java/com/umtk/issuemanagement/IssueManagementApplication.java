@@ -10,6 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication
+
 public class IssueManagementApplication {
 
 	public static void main(String[] args) {
@@ -23,7 +24,7 @@ public class IssueManagementApplication {
 	}*/
 	public ModelMapper getModelMapper() {
 		ModelMapper modelMapper = new ModelMapper();
-		//modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
+		modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
 		return modelMapper;
 	}
 
