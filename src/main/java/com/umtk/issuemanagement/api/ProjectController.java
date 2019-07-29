@@ -6,15 +6,18 @@ import com.umtk.issuemanagement.service.impl.ProjectServiceImpl;
 import com.umtk.issuemanagement.util.ApiPaths;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import lombok.Lombok;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import sun.awt.SunHints;
 
 import javax.validation.Valid;
+
 
 @RestController
 @RequestMapping(ApiPaths.ProjectCtrl.Ctrl_)
 @Api(value = ApiPaths.ProjectCtrl.Ctrl_ ,description = "Project APIs")
+@Slf4j
 /* @RequestMapping(value = "/project", method = RequestMethod.GET) */
 public class ProjectController {
 
@@ -27,6 +30,8 @@ public class ProjectController {
     @GetMapping("/{id}")
     @ApiOperation(value = "Get By ID Operation",response = ProjectDto.class)
     public ResponseEntity<ProjectDto> getById(@PathVariable("id") Long id){
+        log.info("ProjectController-> GetByID ");
+        log.debug("ProjectController-> GetByID -> PARAM:" + id);
         ProjectDto projectDto =  projectServiceImlp.getById(id);
         return  ResponseEntity.ok(projectDto);
     }
@@ -34,7 +39,6 @@ public class ProjectController {
     @PostMapping
     @ApiOperation(value = "Create Operation",response = ProjectDto.class)
     public ResponseEntity<ProjectDto> createProject(@Valid @RequestBody ProjectDto project){
-
         return ResponseEntity.ok(projectServiceImlp.save(project));
     }
 
