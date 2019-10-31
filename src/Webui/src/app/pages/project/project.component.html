@@ -1,0 +1,21 @@
+<div class="content-wrapper"> 
+    <!-- {{projectMessage}} -->
+  
+    <ngx-datatable
+    class="bootstrap"
+    [rows]="rows"
+    [columns]="cols"
+    [columnMode]="'force'"
+    [externalPaging]="true"
+    [headerHeight]="50"
+    [footerHeight]="50"
+    [rowHeight]="'auto'"
+    [count] ="page.totalElements"
+    [limit]="page.size"   
+    [offset]="page.page"        
+    (page)='setPage($event) '
+    >
+    </ngx-datatable>  
+</div>
+
+

@@ -1,0 +1,17 @@
+<section class="wrapper">
+    <div style="text-align:center">
+                <h1>
+                  Welcome to {{ title }}! by project umit
+                </h1>
+    </div>
+    <app-sidebar></app-sidebar>
+    <div class="content-area" id="main-container">
+        <app-header></app-header>
+        <div class="page-wrapper">
+
+            <router-outlet></router-outlet>
+
+            <app-footer></app-footer>
+        </div>
+    </div>
+</section>

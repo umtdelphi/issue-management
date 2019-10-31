@@ -4,10 +4,12 @@ import com.umtk.issuemanagement.Entity.Project;
 import com.umtk.issuemanagement.dto.ProjectDto;
 import com.umtk.issuemanagement.service.impl.ProjectServiceImpl;
 import com.umtk.issuemanagement.util.ApiPaths;
+import com.umtk.issuemanagement.util.TPage;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.Lombok;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,6 +20,7 @@ import javax.validation.Valid;
 @RequestMapping(ApiPaths.ProjectCtrl.Ctrl_)
 @Api(value = ApiPaths.ProjectCtrl.Ctrl_ ,description = "Project APIs")
 @Slf4j
+@CrossOrigin
 /* @RequestMapping(value = "/project", method = RequestMethod.GET) */
 public class ProjectController {
 
@@ -25,6 +28,13 @@ public class ProjectController {
 
     public ProjectController(ProjectServiceImpl projectServiceImlp) {
         this.projectServiceImlp = projectServiceImlp;
+    }
+
+    @GetMapping("/pagination")
+    @ApiOperation(value = "Get By Pagination Operation",response = ProjectDto.class)
+    public ResponseEntity<TPage<ProjectDto>> getAllByPagination(Pageable pageable){
+        TPage<ProjectDto> respnsy = projectServiceImlp.getAllPageable(pageable);
+        return  ResponseEntity.ok(respnsy);
     }
 
     @GetMapping("/{id}")
