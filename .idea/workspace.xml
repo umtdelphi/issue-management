@@ -2,101 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80ffd2cb-5502-43c0-aa72-8e7040dec184" name="Default Changelist" comment="first project">
-      <change afterPath="$PROJECT_DIR$/src/Webui/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/angular copy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/browserslist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/e2e/protractor.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/e2e/src/app.po.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/e2e/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/_layout/app-layout/app-layout.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/_layout/app-layout/app-layout.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/_layout/app-layout/app-layout.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/_layout/footer/footer.component .ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/_layout/footer/footer.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/_layout/footer/footer.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/_layout/header/header.component .ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/_layout/header/header.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/_layout/header/header.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/_layout/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/_layout/sidebar/sidebar.component .ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/_layout/sidebar/sidebar.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/_layout/sidebar/sidebar.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/app-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/app.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/app.routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/common/page.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/common/project.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/pages/dashboard/dashboard.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/pages/dashboard/dashboard.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/pages/dashboard/dashboard.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/pages/dashboard/dashboard.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/pages/dashboard/dashboard.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/pages/dashboard/dashboard.routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/pages/issue/issue.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/pages/issue/issue.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/pages/issue/issue.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/pages/issue/issue.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/pages/issue/issue.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/pages/issue/issue.routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/pages/project/project.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/pages/project/project.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/pages/project/project.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/pages/project/project.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/pages/project/project.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/pages/project/project.routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/services/api.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/services/api.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/services/shared/issue.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/services/shared/project.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/app/shared/shared.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/assets/i18n/de.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/assets/i18n/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/assets/i18n/tr.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Webui/tslint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/projects.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_4_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/issue-management.iml" beforeDir="false" afterPath="$PROJECT_DIR$/issue-management.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/umtk/issuemanagement/IssueManagementApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/umtk/issuemanagement/IssueManagementApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/umtk/issuemanagement/api/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/umtk/issuemanagement/api/ProjectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/umtk/issuemanagement/service/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/umtk/issuemanagement/service/ProjectService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/umtk/issuemanagement/service/impl/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/umtk/issuemanagement/service/impl/ProjectServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/umtk/issuemanagement/util/TPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/umtk/issuemanagement/util/TPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/umtk/issuemanagement/Entity/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/umtk/issuemanagement/Entity/Project.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/umtk/issuemanagement/IssueManagementApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/umtk/issuemanagement/IssueManagementApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/umtk/issuemanagement/dto/IssueDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/umtk/issuemanagement/dto/IssueDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/umtk/issuemanagement/dto/ProjectDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/umtk/issuemanagement/dto/ProjectDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/umtk/issuemanagement/repo/ProjectRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/umtk/issuemanagement/repo/ProjectRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/umtk/issuemanagement/service/IssueService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/umtk/issuemanagement/service/IssueService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/umtk/issuemanagement/service/ProjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/umtk/issuemanagement/service/ProjectService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/umtk/issuemanagement/service/impl/IssueServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/umtk/issuemanagement/service/impl/IssueServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/umtk/issuemanagement/service/impl/ProjectServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/umtk/issuemanagement/service/impl/ProjectServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/umtk/issuemanagement/util/TPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/umtk/issuemanagement/util/TPage.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -284,21 +190,72 @@
       <option name="project" value="LOCAL" />
       <updated>1564392357946</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="first project">
+      <created>1572521361775</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1572521361775</updated>
+    </task>
+    <task id="LOCAL-00014" summary="first project">
+      <created>1572521538918</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1572521538918</updated>
+    </task>
+    <task id="LOCAL-00015" summary="first project">
+      <created>1572593823841</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1572593823841</updated>
+    </task>
+    <task id="LOCAL-00016" summary="first project">
+      <created>1572593908025</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1572593908025</updated>
+    </task>
+    <task id="LOCAL-00017" summary="first project">
+      <created>1572594012812</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1572594012812</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:D:/MyWork/Udemy/java_angular/issue-management/src/Webui" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -307,6 +264,11 @@
           </value>
         </entry>
       </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
