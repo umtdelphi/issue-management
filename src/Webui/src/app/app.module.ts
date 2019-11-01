@@ -8,14 +8,14 @@ import { HeaderComponent } from '../_layout/header/header.component ';
 import {ToastNoAnimation, ToastNoAnimationModule, ToastrModule} from "ngx-toastr";
 import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
-import {HTTP_INTERCEPTORS, HttpClient, HttpClientModule} from "@angular/common/http";
+import {HTTP_INTERCEPTORS , HttpClient, HttpClientModule} from "@angular/common/http";
 import { ApiService } from './services/api.service';
 import {NgxDatatableModule} from '@swimlane/ngx-datatable';
 import { ProjectService } from './services/shared/project.service';
 import { IssueService } from './services/shared/issue.service';
 
 export const createTranslateLoader = (http: HttpClient) => {
-  return new TranslateHttpLoader(http, './assets/i18n/', 'tr.json');
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
 
 @NgModule({

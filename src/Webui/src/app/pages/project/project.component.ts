@@ -10,7 +10,8 @@ import { Project } from 'src/app/common/project.model';
 })
 export class ProjectComponent implements OnInit {
 
-    // projectMessage = 'from project message : owner of the license of the project is Ümit Karakaş...';
+ // projectMessage = 'from project message : owner of the license of the project is Ümit Karakaş...';
+
   page = new Page();
   rows = [];
   cols =[

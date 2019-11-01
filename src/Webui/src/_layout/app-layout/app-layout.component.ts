@@ -9,9 +9,11 @@ import {TranslateService} from "@ngx-translate/core";
 export class AppLayoutComponent implements OnInit {
 
   constructor(private translateService: TranslateService) {
-    this.translateService.addLangs(['tr','en','de']);
+    this.translateService.addLangs(['tr','de','en']);
+    this.translateService.setDefaultLang('tr')
+    
     const browserLang = this.translateService.getBrowserLang();
-    this.translateService.use(browserLang.match(/en|de|tr/) ? browserLang : 'en');
+    this.translateService.use(browserLang.match(/tr|en|de/) ? browserLang : "en");
   }
 
   ngOnInit() {

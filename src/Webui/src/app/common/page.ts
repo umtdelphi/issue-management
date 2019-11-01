@@ -2,8 +2,8 @@ import { typeWithParameters } from '@angular/compiler/src/render3/util';
 
 export class Page {
     constructor(){
-        this.size =3 ;
-        this.page =1;
+        this.size =4 ;
+        this.page =10;
     }
     // The number of elements in the page
     size: number = 0;

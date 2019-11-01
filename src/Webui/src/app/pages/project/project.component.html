@@ -1,6 +1,8 @@
+
 <div class="content-wrapper"> 
-    <!-- {{projectMessage}} -->
-  
+    <!-- {{projectMessage | translate  }} -->
+    <h3>{{ 'Project List'  | translate }}</h3>
+
     <ngx-datatable
     class="bootstrap"
     [rows]="rows"
@@ -16,6 +18,7 @@
     (page)='setPage($event) '
     >
     </ngx-datatable>  
+
 </div>
 
 
